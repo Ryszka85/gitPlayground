@@ -11,4 +11,9 @@ class SomeTest {
         assertThat("Foo").isEqualTo("Foo");
     }
 
+    @Test
+    public void fooTest2() {
+        assertThat("bar").isEqualTo("bar");
+    }
+
 }
